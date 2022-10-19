@@ -1,5 +1,5 @@
 # Rockbuster Stealth Project
-Data Analysis project for training conducted in SQL for Career Foundry Data Analytics Program
+Data Analysis project conducted in SQL for Career Foundry Data Analytics Program
 
 **Customer**
 
