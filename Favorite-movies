@@ -1,9 +1,10 @@
-Select SUM(A.amount) as total_amount, F.country			
-from payment A			
-INNER JOIN rental B ON B.rental_id = A.rental_id			
-INNER JOIN customer C ON B.customer_id = C.customer_id			
-INNER JOIN address D ON D.address_id = C.address_id			
-INNER JOIN city E ON E.city_id = D.city_id			
-INNER JOIN country F ON F.country_id = E.country_id			
-Group by country			
-Order by total_amount DESC			
+Select C.title, D.name as category, sum(F.amount) as revenue 					
+from payment F					
+INNER JOIN rental E ON F.rental_id = E.rental_id					
+INNER JOIN inventory A ON A.inventory_id = E.inventory_id					
+INNER JOIN film_category B ON B.film_id = A.film_id 					
+INNER JOIN film C ON C.film_id = B.film_id					
+INNER JOIN category D ON B.category_id = D.category_id					
+Group by A.film_id, c.title, d.name					
+Order by revenue DESC					
+Limit 10					
