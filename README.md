@@ -25,7 +25,7 @@ Project viz's:
 
 [HIGHEST MOVIE RENT REVENUE COUNTRIES](https://public.tableau.com/app/profile/maria.lucia1603/viz/Highestmovierentrevenuepercontry/Sheet1)
 
-[MOVIE RENTAL DURATION PER CONTRY](https://public.tableau.com/app/profile/maria.lucia1603/viz/Movieaveragerentaldurationpercountry/Sheet1)
+[MOVIE RENTAL DURATION PER COUNTRY](https://public.tableau.com/app/profile/maria.lucia1603/viz/Movieaveragerentaldurationpercountry/Sheet1)
 
 [REVENUE GAIN BY MOVIE GENRE](https://public.tableau.com/app/profile/maria.lucia1603/viz/Whichmoviegenrecontributedthemostleasttorevenuegain/Sheet1)
 
