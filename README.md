@@ -13,11 +13,21 @@ The company is looking to break into the online video rental MarkeT in 2023
 
 Answers to use for their 2023 company strategy
 
+**Main questions:**
+
+Which countries are Rockbuster customers based in?
+
+Which movies contributed the most/least to revenue gain
+
+What was the average rental duration for all videos? 
+
+Where are customers with a high lifetime value based?
+
+Do sales ﬁgures vary between geographic regions?
+
 **Provided Database:**
 
 [PROVIDED DATABASE](https://github.com/mariaguarita/SQLcuststreampreferences/files/9821071/dvdrental.zip)
-
-
 
 Project viz's: 
 
