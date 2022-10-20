@@ -1,5 +1,3 @@
-# Which countries are Rockbuster customers based in?
-
 Select sum(A.customer_id) AS total_customer_number, country			
 FROM customer A			
 INNER JOIN address B ON A.address_id = B.address_id			
