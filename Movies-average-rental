@@ -1,7 +1,10 @@
-Select B.first_name, B.last_name, D.city,E.country, SUM (A.amount) as total_paid, COUNT(A.rental_id) AS total_rental					
-FROM customer B					
-INNER JOIN payment A ON A.customer_id = B.customer_id					
-INNER JOIN address C ON B.address_id = C.address_id					
-INNER JOIN city D ON C.city_id = D.city_id					
-INNER JOIN country E ON D.country_id = E.country_id					
-GROUP BY B.first_name, B.last_name, D.city, E.country, A.amount					
+	Select Cast (AVG(A.rental_duration) as decimal (10,2)) as avg_rental_duration, country		
+from film A			
+INNER JOIN inventory B ON A.film_id = B.film_id			
+INNER JOIN rental C ON C.inventory_id = B.inventory_id			
+INNER JOIN customer D ON C.customer_id = D.customer_id			
+INNER JOIN address E ON E.address_id = D.address_id			
+INNER JOIN city F ON F.city_id = E.city_id			
+INNER JOIN country G ON G.country_id = F.country_id			
+Group by country			
+Order by avg_rental_duration DESC			
