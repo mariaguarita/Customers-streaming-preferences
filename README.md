@@ -7,7 +7,7 @@ Data Analysis project conducted in SQL for Career Foundry Data Analytics Program
 
 **Customer goal**
 
-The company is looking to break into the online video rental MarkeT in 2023
+The company is looking to break into the online video rental Market in 2023
 
 **Project request**
 
