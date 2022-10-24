@@ -3,7 +3,7 @@ Data Analysis project conducted in SQL for Career Foundry Data Analytics Program
 
 **Customer**
 
-"Rockbuster Stealth LLC" is a ficticious DVD rental company which used to have stores around de world. 
+"Rockbuster Stealth LLC" is a fictitious DVD rental company which used to have stores around de world. 
 
 **Customer goal**
 
